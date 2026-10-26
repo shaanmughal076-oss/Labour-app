@@ -1,0 +1,27 @@
+name: labour_app
+description: Labour App - Gaon ke majdoor aur mistri connect app for 413 villages
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.5.0
+  geolocator: ^10.1.0
+  image_picker: ^1.0.4
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
